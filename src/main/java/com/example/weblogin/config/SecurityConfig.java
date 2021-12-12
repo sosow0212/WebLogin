@@ -19,7 +19,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().permitAll() // 그게 아닌 모든 주소는 인증 필요 없음
                 .and()
                 .formLogin()
-//                .loginPage("/auth/signin") // 인증필요한 주소로 접속하면 이 주소로 이동시킴
+                .loginPage("/signin") // 인증필요한 주소로 접속하면 이 주소로 이동시킴
                 .defaultSuccessUrl("/"); // 로그인이 정상적이면 "/" 로 이동
     }
 }
