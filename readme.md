@@ -3,6 +3,7 @@
 
 ### 프로젝트 설정
 - Gradle
+- Java 11
 
 ### dependency 
 - Spring Boot DevTools
