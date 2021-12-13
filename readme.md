@@ -1,5 +1,9 @@
 ## Spring-boot 회원가입 및 로그인 기능 구현
 
+
+### 프로젝트 설정
+- Gradle
+
 ### dependency 
 - Spring Boot DevTools
 - Lombok
